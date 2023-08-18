@@ -7,14 +7,14 @@ import java.util.Date
 
 @JsonClass(generateAdapter = true)
 data class Comic(
-    @SerializedName(  "id") val mid: Int?,
-    @SerializedName(  "digitalId") val mdigitalId: Int?,
-    @SerializedName(  "title") val mtitle: String?,
-    @SerializedName(  "issueNumber") val missueNumber: Double?,
-    @SerializedName(  "variantDescription") val mvariantDescription: String?,
-    @SerializedName(  "description") val mdescription: String?,
-    @SerializedName(  "modified") val mmodified: Date?,
-    @SerializedName(  "isbn") val misbn: String?,
+    @SerializedName("id") val mid: Int?,
+    @SerializedName("digitalId") val mdigitalId: Int?,
+    @SerializedName("title") val mtitle: String?,
+    @SerializedName("issueNumber") val missueNumber: Double?,
+    @SerializedName("variantDescription") val mvariantDescription: String?,
+    @SerializedName("description") val mdescription: String?,
+    @SerializedName("modified") val mmodified: Date?,
+    @SerializedName("isbn") val misbn: String?,
     @SerializedName("upc") val mupc: String?,
     @SerializedName("diamondCode") val mdiamondCode: String?,
     @SerializedName("ean") val mean: String?,
